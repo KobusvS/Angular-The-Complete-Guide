@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
+import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 
 
 
@@ -21,7 +22,8 @@ import { NgModule } from '@angular/core';
     RecipesComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    RecipeListComponent
+    RecipeListComponent,
+    RecipeItemComponent
 
 
   ],
